@@ -2,6 +2,7 @@
 --- @type LazyPluginSpec
 return {
 	"hrsh7th/nvim-cmp",
+	enabled = false,
 	dependencies = {
 		-- Snippet Engine & its associated nvim-cmp source
 		"hrsh7th/cmp-cmdline",
