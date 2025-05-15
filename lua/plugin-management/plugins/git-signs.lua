@@ -53,7 +53,7 @@ return {
 				map("n", "gS", gitsigns.stage_buffer)
 				map("n", "gR", gitsigns.reset_buffer)
 				map("n", "<M-p>", gitsigns.preview_hunk)
-				map("n", "<M-P>", gitsigns.preview_hunk_inline)
+				-- map("n", "<M-P>", gitsigns.preview_hunk_inline)
 
 				map("n", "gb", function()
 					gitsigns.blame_line({ full = true })
