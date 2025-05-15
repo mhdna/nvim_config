@@ -36,7 +36,7 @@ return {
 			desc = "Recent (cwd)",
 		},
 		-- { "gc", "<cmd>Telescope git_commits<CR>", desc = "Commits" },
-		{ "<M-G>", "<cmd>Telescope git_status<CR>", desc = "Status" },
+		-- { "<M-G>", "<cmd>Telescope git_status<CR>", desc = "Status" },
 		{ "<leader>sb", "<cmd>Telescope current_buffer_fuzzy_find<cr>", desc = "Buffer" },
 		{ "<leader>sc", "<cmd>Telescope command_history<cr>", desc = "Command History" },
 		{ "<leader>sd", "<cmd>Telescope diagnostics bufnr=0<cr>", desc = "Document Diagnostics" },

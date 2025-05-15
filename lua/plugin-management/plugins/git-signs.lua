@@ -59,7 +59,7 @@ return {
 					gitsigns.blame_line({ full = true })
 				end)
 
-				map("n", "<M-G>", gitsigns.diffthis)
+				-- map("n", "<M-G>", gitsigns.diffthis)
 
 				-- map("n", "gD", function()
 				-- 	gitsigns.diffthis("~")
