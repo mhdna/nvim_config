@@ -40,22 +40,19 @@ return {
 				-- 	gitsigns.stage_hunk()
 				-- 	gitsigns.nav_hunk("next")
 				-- end)
-				map("n", "gr", gitsigns.reset_hunk)
 
-				map("v", "gs", function()
+				map("v", "<M-s>", function()
 					gitsigns.stage_hunk({ vim.fn.line("."), vim.fn.line("v") })
 				end)
 
-				map("v", "gr", function()
+				map("v", "<M-r>", function()
 					gitsigns.reset_hunk({ vim.fn.line("."), vim.fn.line("v") })
 				end)
 
-				map("n", "gS", gitsigns.stage_buffer)
-				map("n", "gR", gitsigns.reset_buffer)
 				map("n", "<M-p>", gitsigns.preview_hunk)
 				-- map("n", "<M-P>", gitsigns.preview_hunk_inline)
 
-				map("n", "gb", function()
+				map("n", "<M-b>", function()
 					gitsigns.blame_line({ full = true })
 				end)
 
